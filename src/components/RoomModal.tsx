@@ -10,8 +10,8 @@ const RoomModal = (props: RoomModalProps) => {
   const [err, setErr] = useState("");
 
   const handleCreateRoom = () => {
-    if (roomId.length !== 6) return setErr("Enter 6 digits to continue!");
-    setRoomId(roomId);
+    if (roomId.length !== 6) return setErr("Enter 6 digits to continue!"); 
+    setRoomId(roomId); 
   };
 
   return (
