@@ -12,7 +12,7 @@ const RoomModal = (props: RoomModalProps) => {
   const handleCreateRoom = () => {
     if (roomId.length !== 6) return setErr("Enter 6 digits to continue!"); 
     setRoomId(roomId); 
-  };
+  }; 
 
   return (
     <div className="absolute inset-0  z-99 flex justify-center items-center "> 
