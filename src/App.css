@@ -20,7 +20,7 @@ body {
   margin: auto;
 }
 
-#navbar {
+nav {
   background-color: yellow;
   display: flex;
   align-items: center;
@@ -31,9 +31,8 @@ body {
   max-width: 1200px;
   margin: auto;
   border-radius: 100px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(15, 23, 42, 0.9);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ffffff1a;
+  background: #0f172ae6;
   backdrop-filter: blur(6px);
   margin-top: 10px;
   padding-right: 5%;
@@ -179,9 +178,8 @@ body {
 footer {
   width: 100%;
   min-height: 200px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(15, 23, 42, 0.9);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ffffff1a;
+  background: #0f172ae6;
   border-top-left-radius: 26px;
   border-top-right-radius: 26px;
   text-align: center;

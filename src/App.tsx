@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { useState } from "react";
 import { createContext } from "react";   
 import { AppContext } from "./context/appContext";
+import Leaderboard from "./pages/Leaderboard";
 
 
 type AppContextType = {
@@ -34,7 +35,7 @@ function App() {
           {/* <Route path="/multiplayer/:roomId" element={<MultiplayerArena />} /> */}
 
           {/* Global Leaderboard */}
-          {/* <Route path="/leaderboard" element={<Leaderboard />} /> */}
+          <Route path="/leaderboard" element={<Leaderboard />} />
         </Routes>
         <Footer />
       </Router>
